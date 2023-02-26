@@ -1,0 +1,132 @@
+/* CSS code for login pop-up */
+#popup {
+  background-color:#E75480;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#login-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 20px;
+ 
+  z-index: 999;
+  width: 300px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#login-popup h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#login-popup label {
+  display: block;
+  margin-bottom: 5px;
+}
+#login-popup input[type="text"],
+#login-popup input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+}
+#login-popup .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#login-popup .button-container button {
+  padding: 5px 10px;
+  background-color: #d76bd0;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+#login-popup .button-container button:hover {
+  background-color: #e089e0;
+}
+#login-popup .links-container {
+  margin-top: 10px;
+  text-align: center;
+}
+#login-popup .links-container a {
+  color: #0066cc;
+  text-decoration: none;
+}
+#login-popup .links-container a:hover {
+  text-decoration: underline;
+}
+#login-popup .links-container span {
+  margin: 0 5px;
+}
+#login-popup .message-area {
+  color: #cc0000;
+  margin-top: 10px;
+}
+#login-popup .hidden {
+  display: none;  
+}
+body {
+  
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;   
+  background-color: #fde6fd;  
+  background: linear-gradient(90deg, rgb(232, 155, 225) 0%, rgb(245, 210, 251) 50%); 
+}
+
+.gallery{
+  width: 100%;
+  display: block;
+  min-height: 10vh;
+  background-color: #000000;
+  padding: 100px 0;
+}
+
+.container{
+   max-width: 1170px;
+   margin:auto;
+}
+.gallery .gallery-filter{
+  padding: 0 15px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.gallery .gallery-filter .filter-item{
+  color: #ffffff;
+  font-size: 17px;
+  border: 2px solid white;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+  padding: 8px 20px 8px 20px;
+  line-height: 1.2;
+  transition: all 0.3s ease;
+}
